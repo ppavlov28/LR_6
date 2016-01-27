@@ -1,0 +1,90 @@
+.container{
+    max-width: 60%;
+    border: red solid 1px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.logo{
+    min-height: 80px;
+    border: #0080bd solid 1px;
+}
+
+.navbar{
+    height: 40px;
+    border: green solid 1px;
+}
+
+.nav{
+    list-style: none;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav>li{
+    display: inline-block;
+}
+
+.menu-point{
+    width: 60px;
+    margin-left: 10px;
+    border: red solid 1px;
+    padding: 6px 12px;
+}
+
+.banner{
+    height: 100px;
+    border: yellow solid 1px;
+}
+
+.partner-logo{
+    border: blue solid 1px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 4px;
+}
+
+.content{
+    border: greenyellow solid 1px;
+    min-height: 200px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.partner-logo-box{
+    width: 80px;
+    height: 80px;
+    border: green solid 1px;
+    display: inline-block;
+}
+
+.articles{
+    width: 60%;
+    min-height: 100px;
+    border: darkslateblue solid 1px;
+    display: inline-block;
+}
+
+.articles-pic{
+    width: 38%;
+    min-height: 100px;
+    border: blue solid 1px;
+    display: inline-block;
+}
+
+footer{
+    min-height: 40px;
+    border: blueviolet;
+    background-color: darkseagreen;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cr{
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
