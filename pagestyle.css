@@ -1,12 +1,12 @@
 .container{
-    max-width: 60%;
+    max-width: 900px;
     background-color: aliceblue;
     margin: 0 auto;
     min-height: 400px;
 }
 
 .logo{
-    min-height: 80px;
+    min-height: 120px;
     background: url("img/nova.jpg") center no-repeat;
     background-size: 100% auto;
 }
@@ -57,11 +57,13 @@
 .content{
     min-height: 200px;
     text-align: center;
+    margin: 20px 0;
 }
 
 .partner-logo-box{
     width: 80px;
     height: 80px;
+    margin-left: 40px;
     display: inline-block;
 }
 
@@ -74,8 +76,10 @@
     width: 60%;
     min-height: 100px;
     display: inline-block;
-    text-align: left;
+    text-align: justify;
     vertical-align: top;
+    background-color: white;
+    margin-right: 10px;
 }
 
 .a-cap{
@@ -92,27 +96,62 @@
 
 .articles-pic{
     width: 36%;
-    height: 200px;
     display: inline-block;
-    margin-top: 20px;
-    box-shadow: dimgray 4px 8px 4px;
-    overflow: hidden;
+    text-align: center;
 }
 
 .articles-pic img{
-    max-height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 footer{
     min-height: 40px;
-    border: blueviolet;
-    background-color: darkseagreen;
+    background-color: #00152e;
     text-align: center;
     vertical-align: middle;
+    color: white;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
 
 .cr{
     line-height: 40px;
     margin: 0;
     padding: 0;
+}
+
+
+@media only all and (min-width: 980px) {
+    .container{
+        width: 900px;
+    }
+}
+
+@media only all and (max-width: 640px) {
+    .container{
+        width: 100%;
+    }
+    .articles{
+        width: 100%;
+    }
+    .articles-pic{
+          width: 50%;
+    }
+}
+
+
+@media only all and (max-width: 400px) {
+    .container{
+        width: 100%;
+    }
+    .articles{
+        width: 100%;
+    }
+    .articles-pic{
+        width: 100%;
+    }
 }
