@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    height: 40px;
+    min-height: 40px;
     border: green solid 1px;
 }
 
