@@ -1,6 +1,5 @@
 .container{
     max-width: 60%;
-    border: red solid 1px;
     background-color: aliceblue;
     margin: 0 auto;
     min-height: 400px;
@@ -8,12 +7,12 @@
 
 .logo{
     min-height: 80px;
-    border: #0080bd solid 1px;
+    background: url("img/nova.jpg") center no-repeat;
+    background-size: 100% auto;
 }
 
 .navbar{
     min-height: 40px;
-    border: green solid 1px;
 }
 
 .nav{
@@ -22,6 +21,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: #00152e;
 }
 
 .nav>li{
@@ -31,48 +31,76 @@
 .menu-point{
     width: 60px;
     margin-left: 10px;
-    border: red solid 1px;
+    background-color: #00152e;
     padding: 6px 12px;
+    text-decoration: none;
+    color: azure;
+    font-family: Tahoma;
+    font-size: small;
+}
+
+.menu-point:hover{
+    background-color: #0080bd;
 }
 
 .banner{
     height: 100px;
-    border: yellow solid 1px;
+    background: url("img/page_head_img_banner_bg.jpg") bottom repeat-x;
 }
 
 .partner-logo{
-    border: blue solid 1px;
     text-align: center;
     vertical-align: middle;
     padding-top: 4px;
 }
 
 .content{
-    border: greenyellow solid 1px;
     min-height: 200px;
-    background-color: bisque;
     text-align: center;
 }
 
 .partner-logo-box{
     width: 80px;
     height: 80px;
-    border: green solid 1px;
     display: inline-block;
+}
+
+.partner-logo-box img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .articles{
     width: 60%;
     min-height: 100px;
-    border: darkslateblue solid 1px;
     display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.a-cap{
+    font-family: Tahoma;
+    font-size: small;
+    margin: 10px;
+}
+
+.a-text{
+    font-family: Tahoma;
+    font-size: x-small;
+    margin: 10px;
 }
 
 .articles-pic{
     width: 38%;
-    min-height: 100px;
-    border: blue solid 1px;
+    height: 150px;
     display: inline-block;
+    margin-top: 20px;
+    box-shadow: dimgray 4px 8px 4px;
+    overflow: hidden;
+}
+
+.articles-pic img{
+    max-height: 100%;
 }
 
 footer{
