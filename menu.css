@@ -1,0 +1,11 @@
+.container {
+    max-width: 900px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    min-height: 400px;
+}
+
+.nav-clearfix{
+    list-style: none;
+    text-decoration: none;
+}

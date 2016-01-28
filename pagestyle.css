@@ -1,3 +1,8 @@
+/*
+Контейнер для всей конструкции страницы
+=================================================
+*/
+
 .container{
     max-width: 900px;
     background-color: aliceblue;
@@ -5,17 +10,27 @@
     min-height: 400px;
 }
 
+/*
+Шапка страниы
+=================================================
+*/
+
 .logo{
     min-height: 120px;
     background: url("img/nova.jpg") center no-repeat;
     background-size: 100% auto;
 }
 
-.navbar{
+/*
+Меню в шапке страницы
+=======================================
+*/
+
+.nav{
     min-height: 40px;
 }
 
-.nav{
+.navbar{
     list-style: none;
     line-height: 40px;
     padding: 0;
@@ -24,7 +39,7 @@
     background-color: #00152e;
 }
 
-.nav>li{
+.navbar li{
     display: inline-block;
 }
 
@@ -43,21 +58,25 @@
     background-color: #0080bd;
 }
 
+/*
+Какой-то горизотальный баннер.
+=================================================
+*/
+
 .banner{
     height: 100px;
     background: url("img/page_head_img_banner_bg.jpg") bottom repeat-x;
 }
 
+/*
+Блок с логотипами
+=================================================
+*/
+
 .partner-logo{
     text-align: center;
     vertical-align: middle;
     padding-top: 4px;
-}
-
-.content{
-    min-height: 200px;
-    text-align: center;
-    margin: 20px 0;
 }
 
 .partner-logo-box{
@@ -70,6 +89,17 @@
 .partner-logo-box img{
     max-width: 100%;
     max-height: 100%;
+}
+
+/*
+Блок содержимого страницы (статья и картинка)
+=================================================
+*/
+
+.content{
+    min-height: 200px;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .articles{
@@ -105,6 +135,11 @@
     height: auto;
 }
 
+/*
+Подвал
+=================================================
+*/
+
 footer{
     min-height: 40px;
     background-color: #00152e;
@@ -124,6 +159,10 @@ footer p{
     padding: 0;
 }
 
+/*
+Медиазапросы
+=================================================
+*/
 
 @media only all and (min-width: 980px) {
     .container{
@@ -141,6 +180,8 @@ footer p{
     .articles-pic{
           width: 50%;
     }
+
+    /*======== Menu =========*/
 }
 
 
@@ -153,5 +194,8 @@ footer p{
     }
     .articles-pic{
         width: 100%;
+    }
+    .banner{
+        display: none;
     }
 }
